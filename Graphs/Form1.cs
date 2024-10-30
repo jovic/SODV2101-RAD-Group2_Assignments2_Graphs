@@ -16,6 +16,8 @@ namespace Graphs
         public Form1()
         {
             InitializeComponent();
+
+            // Button add
             btn_save.Enabled = false;
             btn_delete.Enabled = false;
         }
