@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Desktop\\Software Development\\6th Term\\SODV2101 - Rapid Application Development\\Assignments\\Assignment2\\SODV2101-RAD-Group2_Assignments2_Graphs\\Graphs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC54A2DC-2564-4C48-856C-37A449307D81}|Graphs.csproj|e:\\desktop\\software development\\6th term\\sodv2101 - rapid application development\\assignments\\assignment2\\sodv2101-rad-group2_assignments2_graphs\\graphs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC54A2DC-2564-4C48-856C-37A449307D81}|Graphs.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Desktop\\Software Development\\6th Term\\SODV2101 - Rapid Application Development\\Assignments\\Assignment2\\SODV2101-RAD-Group2_Assignments2_Graphs\\Graphs\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\Desktop\\Software Development\\6th Term\\SODV2101 - Rapid Application Development\\Assignments\\Assignment2\\SODV2101-RAD-Group2_Assignments2_Graphs\\Graphs\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:24:38.26Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
