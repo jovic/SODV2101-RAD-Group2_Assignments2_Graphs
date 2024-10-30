@@ -24,8 +24,6 @@ namespace Graphs
 
         private void LoadChart()
         {
-
-
             /*try
             {
                 // Create an array of Valuedata using the existing TextBoxes
@@ -96,7 +94,6 @@ namespace Graphs
              txtX.Clear();
              txtY.Clear();
              txtZ.Clear();
-
 
              // Remove only the previous chart if it exists
              var existingChart = this.Controls.OfType<Chart>().FirstOrDefault();
