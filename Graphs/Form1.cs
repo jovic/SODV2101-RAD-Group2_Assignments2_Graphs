@@ -42,7 +42,6 @@ namespace Graphs
                 chart.Height = 200;
                 chart.Width = 450;*//*
 
-                // Remove only the previous chart if it exists
                 var existingChart = this.Controls.OfType<Chart>().FirstOrDefault();
                 if (existingChart != null)
                 {
