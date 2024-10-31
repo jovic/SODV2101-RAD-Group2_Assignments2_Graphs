@@ -73,17 +73,33 @@ namespace Graphs
 
                 ch_piechart.Series.Add(series);
 
+                double totalPoints = 0;
+
+                // calculate the total points
+                foreach (DataGridViewRow row in dgv_chartValues.Rows)
+                {
+                    if (row.Cells[1].Value != null) // Ensure the cell has a value
+                    {
+                        totalPoints += Convert.ToDouble(row.Cells[1].Value);
+                    }
+                }
+
+                // add points and their percentage labels
                 foreach (DataGridViewRow row in dgv_chartValues.Rows)
                 {
                     string itemName = row.Cells[0].Value.ToString();
                     double points = Convert.ToDouble(row.Cells[1].Value);
+                    double percentage = (points / totalPoints) * 100; // Calculate the percentage
                     series.Points.AddXY(itemName, points);
+
+                    // Set the label for the point to show the percentage
+                    series.Points.Last().Label = $"{itemName}: {percentage:F1}%"; // Format to one decimal place
                 }
 
                 ch_piechart.Legends[0].Enabled = true;
             }
-
         }
+
 
         private void btnClear_Click(object sender, EventArgs e)
         {
